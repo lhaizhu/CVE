@@ -10,7 +10,7 @@ Vulnerability corresponding file：admin/ajax_products_list.php
 
 On line 54, receive packItself via getValue and concatenate it into $sqlWhere on line 76
 
-![image-20250610091129653](https://github.com/caigo8/)
+![image-20250610091129653](https://github.com/)
 
 There is an injection vulnerability in line 95 where $sqlWhere is concatenated into $sql and line 97 where the sql statement is executed through executeS executes without escaping or filtering the content of packItself and concatenating it directly into the statement execution
 
