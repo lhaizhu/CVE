@@ -6,7 +6,7 @@ In the QloApps 1.6.1 version, there is an SQL injection vulnerability in the 'pa
 
 Vulnerability corresponding file：admin/ajax_products_list.php
 
-![image-202506100908](https://github.com/lhaizhu/picx-images/raw/master/QloApps/image-202506100908.8dx4bw46at.webp)
+![image-202506100908](https://github.com/lhaizhu/picx-images/raw/refs/heads/main/QloApps/image-202506100908.8dx4bw46at.webp)
 
 On line 54, receive packItself via getValue and concatenate it into $sqlWhere on line 76
 
