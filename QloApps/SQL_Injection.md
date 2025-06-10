@@ -32,8 +32,8 @@ Cookie: PrestaShop-982ef6ed83d922bf6ce9ada599a2fd13=def502007a7e6ee564892223cd18
 
 ```
 
-![image-202506100931]([https://github.com/](https://github.com/lhaizhu/picx-images/raw/refs/heads/QloApps/image-202506100931.3yep6mrwiy.webp))
+![image-202506100931]([https://github.com/](https://github.com/lhaizhu/picx-images/raw/refs/heads/main/QloApps/image-202506100931.3yep6mrwiy.webp))
 
 Result of Sqlmap:
 
-![image-202506100928]([https://github.com/](https://github.com/lhaizhu/picx-images/raw/refs/heads/QloApps/image-202506100928.4n7yqnffjd.webp))
+![image-202506100928]([https://github.com/](https://github.com/lhaizhu/picx-images/raw/refs/heads/main/QloApps/image-202506100928.4n7yqnffjd.webp))
