@@ -10,7 +10,7 @@ Vulnerability corresponding file：admin/ajax_products_list.php
 
 On line 54, receive packItself via getValue and concatenate it into $sqlWhere on line 76
 
-![image-202506100911](https://github.com/lhaizhu/picx-images/raw/master/QloApps/image-202506100911.1vywiktbhk.webp)
+![image-202506100911](https://github.com/lhaizhu/picx-images/raw/refs/heads/main/QloApps/image-202506100911.1vywiktbhk.webp)
 
 There is an injection vulnerability in line 95 where $sqlWhere is concatenated into $sql and line 97 where the sql statement is executed through executeS executes without escaping or filtering the content of packItself and concatenating it directly into the statement execution
 
@@ -32,8 +32,8 @@ Cookie: PrestaShop-982ef6ed83d922bf6ce9ada599a2fd13=def502007a7e6ee564892223cd18
 
 ```
 
-![image-202506100931]([https://github.com/](https://github.com/lhaizhu/picx-images/raw/master/QloApps/image-202506100931.3yep6mrwiy.webp))
+![image-202506100931]([https://github.com/](https://github.com/lhaizhu/picx-images/raw/refs/heads/main/QloApps/image-202506100931.3yep6mrwiy.webp))
 
 Result of Sqlmap:
 
-![image-202506100928]([https://github.com/](https://github.com/lhaizhu/picx-images/raw/master/QloApps/image-202506100928.4n7yqnffjd.webp))
+![image-202506100928]([https://github.com/](https://github.com/lhaizhu/picx-images/raw/refs/heads/main/QloApps/image-202506100928.4n7yqnffjd.webp))
